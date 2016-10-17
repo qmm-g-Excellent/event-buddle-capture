@@ -22,6 +22,7 @@
             }
 
             function doingHomework() {
+                // 阻止事件的进一步传播，但仍旧会执行接下来的代码
                 event.stopPropagation();
                 console.log("grandson:I am doing my homework T_T");
             }
